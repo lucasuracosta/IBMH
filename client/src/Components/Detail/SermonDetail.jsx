@@ -1,16 +1,16 @@
-import { useParams } from "react-router-dom"
-import { useSelector, useDispatch } from "react-redux"
-import { useEffect } from "react";
-import { NavLink, Link } from 'react-router-dom';
-import { getDetail} from "../../Redux/actions";
-import LastFourSermonCard from "../Sermon/LastFourSermonCard";
-import {FacebookShareButton, WhatsappShareButton,  EmailShareButton, TelegramShareButton}  from "react-share"
 import { FaFacebook, FaTelegram } from "react-icons/fa";
-import { RiWhatsappFill } from "react-icons/ri";
-import { MdEmail } from "react-icons/md";
-import BannerContact from "../Contact/BannerContact";
-import InfoMeeting from '../Landing/InfoMeeting'
+import { useDispatch, useSelector } from "react-redux";
+import { Link, NavLink } from 'react-router-dom';
+import { EmailShareButton, FacebookShareButton, TelegramShareButton, WhatsappShareButton } from "react-share";
 
+import { useEffect } from "react";
+import { MdEmail } from "react-icons/md";
+import { RiWhatsappFill } from "react-icons/ri";
+import { useParams } from "react-router-dom";
+import { getDetail } from "../../Redux/actions";
+import BannerContact from "../Contact/BannerContact";
+import InfoMeeting from '../Landing/InfoMeeting';
+import LastFourSermonCard from "../Sermon/LastFourSermonCard";
 
 const SermonDetail = () => {
     const {id} = useParams();
@@ -43,7 +43,7 @@ const SermonDetail = () => {
                     src={embed + videoLink }
                     className="w-80 h-48 m-auto md:w-9/12 md:h-[560px]"
                   />    
-                ) : <p>El video no es compatible con el celular. Por favor visita el canal de Youtube <Link target="_blank" to="https://www.youtube.com/@ibmhurlingham879" style={{color:"blue"}}>IBM Hurlingham</Link></p> 
+                ) : <p>El video no es compatible con el celular. Por favor visita el canal de Youtube <Link target="_blank" to="https://www.youtube.com/@ibmhurlingham" style={{color:"blue"}}>IBM Hurlingham</Link></p> 
             }
         </div>
         <div className="mb-10 mt-4 border-t-2 md:mx-28">

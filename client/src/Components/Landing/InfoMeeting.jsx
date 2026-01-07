@@ -1,17 +1,15 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import {FaLocationDot, FaChurch,FaYoutube} from 'react-icons/fa6'
-import {MdEmail} from 'react-icons/md'
-import {FaFacebookSquare} from 'react-icons/fa'
-import {BsSpotify} from 'react-icons/bs'
-import BannerContact from '../Contact/BannerContact'
+import { FaChurch, FaLocationDot, FaYoutube } from 'react-icons/fa6'
 
+import { BsSpotify } from 'react-icons/bs'
+import { FaFacebookSquare } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 
 function InfoMeeting() {
 
   const mapsLink = "https://maps.app.goo.gl/ofYdrW9GDmyXzmsp6"
   const facebookLink = 'https://facebook.com/ibmhurlingham/'
-  const youtubeLink = 'https://www.youtube.com/@ibmhurlingham879'
+  const youtubeLink = 'https://www.youtube.com/@ibmhurlingham'
   const spotifyLink = 'https://open.spotify.com/show/2u3WpNOhXByNh9ifTLlgCQ?si=9452c98f2180480e'
 
 

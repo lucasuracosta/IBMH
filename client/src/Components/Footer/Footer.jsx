@@ -1,15 +1,14 @@
-import React from 'react'
+import { FaChurch, FaLocationDot, FaYoutube } from 'react-icons/fa6';
+
+import { BsSpotify } from 'react-icons/bs';
+import { FaFacebookSquare } from 'react-icons/fa';
+import { MdEmail, MdOpenInNew } from 'react-icons/md';
 import { NavLink } from 'react-router-dom';
-import logoWhite from '/logoWhite.png'
-import {FaLocationDot, FaYoutube, FaChurch} from 'react-icons/fa6'
-import {MdEmail} from 'react-icons/md'
-import {BsSpotify} from 'react-icons/bs'
-import {FaFacebookSquare} from 'react-icons/fa'
-import { MdOpenInNew } from "react-icons/md";
+import logoWhite from '/logoWhite.png';
 
 function Footer() {
 
-  const youtubeLink = 'https://www.youtube.com/@ibmhurlingham879'
+  const youtubeLink = 'https://www.youtube.com/@ibmhurlingham'
   const spotifyLink = 'https://open.spotify.com/show/2u3WpNOhXByNh9ifTLlgCQ?si=9452c98f2180480e'
   const facebookLink = 'https://facebook.com/ibmhurlingham/'
 

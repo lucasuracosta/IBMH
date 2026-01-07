@@ -1,15 +1,13 @@
-import React, { useEffect } from 'react'
-import { Link, NavLink } from 'react-router-dom'
-import FormContact from './FormContact'
+import { useEffect } from 'react'
+import { NavLink } from 'react-router-dom'
+
 import InfoMeeting from '../Landing/InfoMeeting.jsx'
-import {FaYoutube} from 'react-icons/fa6'
-import {BsSpotify} from 'react-icons/bs'
-import { PiCrossFill } from "react-icons/pi";
 import LastFourSermonCard from '../Sermon/LastFourSermonCard.jsx'
+import FormContact from './FormContact'
 
 function Contact() {
 
-  const youtubeLink = 'https://www.youtube.com/@ibmhurlingham879'
+  const youtubeLink = 'https://www.youtube.com/@ibmhurlingham'
   const spotifyLink = 'https://open.spotify.com/show/2u3WpNOhXByNh9ifTLlgCQ?si=9452c98f2180480e'
 
   useEffect(()=>{
