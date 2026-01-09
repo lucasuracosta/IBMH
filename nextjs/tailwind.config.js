@@ -30,9 +30,9 @@ module.exports = {
         },
       },
       fontFamily: {
-        'garamond': ['EB Garamond', 'serif'],
-        'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
-        'montserrat': ['Montserrat', 'system-ui', 'sans-serif'],
+        'garamond': ['var(--font-garamond)', 'EB Garamond', 'serif'],
+        'sans': ['var(--font-inter)', 'Inter', 'system-ui', '-apple-system', 'sans-serif'],
+        'montserrat': ['var(--font-montserrat)', 'Montserrat', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         'ibm': '8px',

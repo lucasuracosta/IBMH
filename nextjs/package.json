@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "optimize-images": "node scripts/optimize-images.mjs"
   },
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
@@ -22,8 +23,9 @@
     "@types/react-dom": "^18.2.0",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.45.0",
-    "eslint-config-next": "^14.0.4",
+    "eslint-config-next": "^15.1.0",
     "postcss": "^8.4.31",
+    "sharp": "^0.34.5",
     "tailwindcss": "^3.3.5",
     "tailwindcss-animated": "^1.0.1",
     "typescript": "^5.3.0"

@@ -1,6 +1,5 @@
 'use client'
 
-// @ts-expect-error - Splide CSS import
 import '@splidejs/react-splide/css'
 
 import { IoChevronBackOutline, IoChevronForwardOutline } from 'react-icons/io5'

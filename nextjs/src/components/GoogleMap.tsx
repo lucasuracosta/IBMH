@@ -7,6 +7,8 @@ export default function GoogleMap() {
       allowFullScreen
       loading="lazy"
       referrerPolicy="no-referrer-when-downgrade"
+      sandbox="allow-scripts allow-same-origin"
+      title="Ubicación de Iglesia Bautista Misionera de Hurlingham"
     />
   )
 }
